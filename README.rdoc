@@ -10,7 +10,7 @@ add things to Gemfile (in root dir of rails project)
 * gem ‘less’
 * gem ‘less-rails’
 * gem ‘twitter-bootstrap-rails’
-** https://rubygems.org/gems/twitter-bootstrap-rails 
+* https://rubygems.org/gems/twitter-bootstrap-rails 
 run bundle install
 run rails generate bootstrap:install
 * this cmd installs bootstrap files for use
