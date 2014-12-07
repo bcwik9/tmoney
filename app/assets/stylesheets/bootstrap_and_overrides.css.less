@@ -14,6 +14,9 @@
 // Font Awesome
 @import "fontawesome/font-awesome";
 
+// Font pacifico
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
 // Glyphicons
 //@import "twitter/bootstrap/glyphicons.less";
 
@@ -27,6 +30,10 @@
 //
 // Example:
 // @link-color: #ff0000;
+
+
+// TODO: This needs to be formatted so it isn't ugly...
+// Sets colors and options for navbar
 @bgDefault      : #e659d8;
 @bgHighlight    : #e659d8;
 @colDefault     : #000000;
@@ -36,6 +43,7 @@ background-color: @bgDefault;
 border-color: @bgHighlight;
 .navbar-brand {
 color: @colDefault;
+font-family: 'Pacifico', cursive;
 &:hover, &:focus { 
 color: @colHighlight; }}
 .navbar-text {
@@ -79,6 +87,13 @@ color: @colHighlight;
 background-color: @bgHighlight; }}}
 }
 
+// Set h2 header font
+h2 {
+font-family: 'Pacifico', cursive;
+}
+
+
+// Carousel jumbotron slide show
 .slide1, .slide2, .slide3 {
          min-height: 560px; /* Must have a height or min-height set due to use of background images */
          background-size: cover;
