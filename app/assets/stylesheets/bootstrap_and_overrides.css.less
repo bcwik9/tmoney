@@ -18,7 +18,7 @@
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
 
 // Glyphicons
-//@import "twitter/bootstrap/glyphicons.less";
+//@import "glyphicons.less";
 
 // Your custom LESS stylesheets goes here
 //
@@ -29,7 +29,6 @@
 // See http://twitter.github.com/bootstrap/customize.html#variables for their names and documentation
 //
 // Example:
-// @link-color: #ff0000;
 
 
 // TODO: This needs to be formatted so it isn't ugly...
@@ -90,22 +89,33 @@ background-color: @bgHighlight; }}}
 // Set background color
 body
 {
-background: @bgDefault; 
+	background: @bgDefault; 
 }
 
 // h1 settings
-h1 {
-font-family: 'Pacifico', cursive;
+h1
+{
+	font-family: 'Pacifico', cursive;
 }
 
 // h2 settings
-h2 {
-font-family: 'Pacifico', cursive;
+h2
+{
+	font-family: 'Pacifico', cursive;
 }
 
 // Footer settings
-footer {
-text-align: center;
+footer
+{
+	text-align: center;
+}
+
+// Add default color text
+.color-defbg
+{
+	color: @bgDefault;
+	border: 3px solid @bgDefault;
+	text-align: center
 }
 
 // Carousel jumbotron slide show
