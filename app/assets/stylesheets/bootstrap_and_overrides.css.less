@@ -96,12 +96,26 @@ body
 h1
 {
 	font-family: 'Pacifico', cursive;
+	font-size: 350%;
+	letter-spacing: 5px;
+	-webkit-text-fill-color: @bgDefault; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
 }
 
 // h2 settings
 h2
 {
 	font-family: 'Pacifico', cursive;
+}
+
+.lead
+{
+	font-family: 'Pacifico', cursive;
+	font-size: 175%;
+	-webkit-text-fill-color: @bgDefault; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
 }
 
 // Footer settings
@@ -114,7 +128,7 @@ footer
 .color-defbg
 {
 	color: @bgDefault;
-	border: 3px solid @bgDefault;
+	//border: 3px solid @bgDefault;
 	text-align: center
 }
 
