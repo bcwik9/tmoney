@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  get 'media', to: 'media#index'
+  get 'media/index'
+
+  get 'media/videos'
+
+  get 'media/pictures'
+
   get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
