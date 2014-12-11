@@ -27,13 +27,10 @@
 //
 // If you'd like to override bootstrap's own variables, you can do so here as well
 // See http://twitter.github.com/bootstrap/customize.html#variables for their names and documentation
-//
-// Example:
-
 
 // TODO: This needs to be formatted so it isn't ugly...
 // Sets colors and options for navbar
-@bgDefault      : #e659d8;
+@bgDefault      : #FF85D6; //#FF66CC; #e659d8;
 @bgHighlight    : #e659d8;
 @colDefault     : #000000;
 @colHighlight   : #cc9dff;
@@ -107,6 +104,7 @@ h1
 h2
 {
 	font-family: 'Pacifico', cursive;
+	color: @colDefault;
 }
 
 .lead
@@ -115,7 +113,7 @@ h2
 	font-size: 175%;
 	-webkit-text-fill-color: @bgDefault; /* Will override color (regardless of order) */
 	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-color: @colDefault;
 }
 
 // Footer settings
@@ -169,7 +167,7 @@ footer
 /* Carousel Overlay */
 .carousel-overlay {
                   position: absolute;
-                  bottom: 100px;
+                  bottom: 50px;
                   right: 0;
                   left: 0;
 }
