@@ -17,26 +17,20 @@
       <ol class="indicator"></ol>
     </div>
 
-    <div id="links" class="text-center">
-      <a href="https://vimeo.com/22495944" title="Banana" vimeo="22495944" type="text/html" poster="http://i.vimeocdn.com/portrait/2405267_300x300.jpg">
-	<img src="http://i.vimeocdn.com/portrait/2405267_300x300.jpg"> alt="Banana">
-      </a>
-    </div>
-
     <!-- TODO: there's gotta be a better way to link to this... -->
     <script src="../../assets/blueimp-gallery.min.js"></script>
-    <!-- <script src="../../assets/media.js"></script> -->
+    <script src="../../assets/media.js"></script>
 
-    <script>
-      document.getElementById('links').onclick = function (event) {
-      event = event || window.event;
-      var target = event.target || event.srcElement,
-      link = target.src ? target.parentNode : target,
-      options = {index: link, event: event},
-      links = this.getElementsByTagName('a');
-      blueimp.Gallery(links, options);
-      };
-    </script>
+      <script>
+	document.getElementById('links').onclick = function (event) {
+	event = event || window.event;
+	var target = event.target || event.srcElement,
+	link = target.src ? target.parentNode : target,
+	options = {index: link, event: event},
+	links = this.getElementsByTagName('a');
+	blueimp.Gallery(links, options);
+	};
+      </script>
 
   </body>
   
