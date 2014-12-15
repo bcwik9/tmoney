@@ -1,6 +1,13 @@
 document.getElementById('vids').onclick = function (event) {
     blueimp.Gallery([
 	{
+	    title: 'Naganuma Dance Company - Apple Heel, Flying Fish',
+	    href: 'https://vimeo.com/21486566',
+	    type: 'text/html',
+	    vimeo: '21486566',
+	    poster: 'assets/thumbs/naganuma0.jpg'
+	},
+	{
 	    title: 'Moxiie - Bottle Service',
 	    href: 'https://www.youtube.com/watch?v=0hGBct3JCT0',
 	    type: 'text/html',
