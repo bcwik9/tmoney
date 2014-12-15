@@ -1,4 +1,4 @@
-document.getElementById('links').onclick = function (event) {
+document.getElementById('vids').onclick = function (event) {
     blueimp.Gallery([
 	{
 	    title: 'A YouYube video',

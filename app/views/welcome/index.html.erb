@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
+    <link rel="stylesheet" href="../../assets/blueimp-gallery.min.css">
   </head>
   <body>
     
@@ -30,6 +32,17 @@
     </div><!-- .carousel -->
     <!--end bg-carousel-->
     
+    <!-- video gallery code -->
+    <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+      <div class="slides"></div>
+      <h3 class="title"></h3>
+      <a class="prev">‹</a>
+      <a class="next">›</a>
+      <a class="close">×</a>
+      <a class="play-pause"></a>
+      <ol class="indicator"></ol>
+    </div>
+
     <div class="container">
       <!-- Example row of columns -->
       <div class="row text-center">
@@ -40,10 +53,15 @@
         </div>
         <div class="col-md-4">
           <h2>Media</h2>
-          <p>Coming soon...</p>
+          <p>Check out my pictures and videos!</p>
           <p>
-	    <a class="btn btn-lh btn-success fp-buttons" href="media" role="button">
-	      <span class="fa fa-check"></span>View details &raquo;
+	    <a class="btn btn-lh btn-success fp-buttons" href="media/pictures" role="button">
+	      <span class="fa fa-check"></span>View images &raquo;
+	    </a>
+	  </p>
+          <p>
+	    <a id="vids" class="btn btn-lh btn-success fp-buttons" role="button">
+	      <span class="fa fa-check"></span>View videos &raquo;
 	    </a>
 	  </p>
        </div>
@@ -54,6 +72,10 @@
         </div>
       </div>
     </div> <!-- /container -->
+
+    <script src="../../assets/blueimp-gallery.min.js"></script>
+    <script src="../../assets/videos_list.js"></script>
+    
 
   </body>
 </html>
