@@ -33,7 +33,7 @@
 @bgDefault      : #FF85D6;
 @bgHighlight    : @bgDefault;
 @colDefault     : #282828;
-@colHighlight   : #cc9dff;
+@colHighlight   : #FF47A3;
 .navbar-inverse {
 background-color: @bgDefault;
 border-color: @bgHighlight;
@@ -97,7 +97,8 @@ h1
 	font-family: 'Pacifico', cursive;
 	font-size: 350%;
 	letter-spacing: 5px;
-	-webkit-text-fill-color: @bgDefault; /* Will override color (regardless of order) */
+	color: @colDefault;
+	-webkit-text-fill-color: @colHighlight; /* Will override color (regardless of order) */
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: @colDefault;
 }
@@ -113,7 +114,8 @@ h2
 {
 	font-family: 'Pacifico', cursive;
 	font-size: 175%;
-	-webkit-text-fill-color: @bgDefault; /* Will override color (regardless of order) */
+	color: @colDefault;
+	-webkit-text-fill-color: @colHighlight; /* Will override color (regardless of order) */
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: @colDefault;
 }
@@ -121,7 +123,12 @@ h2
 .pink-btn
 {
   //.button-variant(@btn-primary-color; @btn-primary-bg; @btn-primary-border);
-  .button-variant(white; @bgDefault; @colDefault);
+  .button-variant(@colDefault; @colHighlight; @colDefault);
+}
+
+.fa-heart
+{
+	color: @colHighlight;
 }
 
 // Footer settings
