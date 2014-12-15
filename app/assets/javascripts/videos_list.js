@@ -21,6 +21,13 @@ document.getElementById('vids').onclick = function (event) {
             vimeo: '90347043',
             poster: 'assets/showmeyourfreak.jpg',
 	},
+	{
+	    title: 'Palisades Park - Counting Crows',
+	    href: 'https://www.youtube.com/watch?v=8-tFkOBU1BQ',
+	    type: 'text/html',
+	    youtube: '8-tFkOBU1BQ',
+	    poster: 'assets/palisadespark.jpg'
+	},
 	
     ]);
 }
