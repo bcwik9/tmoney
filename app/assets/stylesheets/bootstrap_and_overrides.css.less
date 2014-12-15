@@ -31,9 +31,9 @@
 // TODO: This needs to be formatted so it isn't ugly...
 // Sets colors and options for navbar
 @bgDefault      : #FF85D6;
-@bgHighlight    : @bgDefault;
+@bgHighlight    : #FF47A3;
 @colDefault     : #282828;
-@colHighlight   : #FF47A3;
+@colHighlight   : @bgHighlight;
 .navbar-inverse {
 background-color: @bgDefault;
 border-color: @bgHighlight;
@@ -84,10 +84,11 @@ background-color: @bgHighlight; }}}
 }
 
 // Set background color
+// move content down since we have a navbar at the top
 body
 {
 	background: @bgDefault;
-	padding-top: 50px;
+	padding-top: 51px;
 	padding-bottom: 20px;
 }
 
