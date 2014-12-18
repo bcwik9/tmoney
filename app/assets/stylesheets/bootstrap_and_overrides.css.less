@@ -111,6 +111,16 @@ h2
 	color: @colDefault;
 }
 
+.pink-lnk
+{
+	color: @bgHighlight;
+}
+.pink-lnk:hover
+{
+	text-decoration: underline;
+	color: @bgHighlight;
+}
+
 .lead
 {
 	font-family: 'Pacifico', cursive;
@@ -121,9 +131,14 @@ h2
 	-webkit-text-stroke-color: @colDefault;
 }
 
+.logo
+{
+	height: 50px;
+	max-width: 100%;
+}
+
 .pink-btn
 {
-  //.button-variant(@btn-primary-color; @btn-primary-bg; @btn-primary-border);
   .button-variant(@colDefault; @colHighlight; @colDefault);
 }
 
