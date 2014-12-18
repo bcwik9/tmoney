@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   get 'media', to: 'media#index'
+  get 'resume', to: 'welcome#resume'
+
   get 'media/index'
 
   get 'media/videos'
@@ -7,6 +9,7 @@ Rails.application.routes.draw do
   get 'media/pictures'
 
   get 'welcome/index'
+  get 'welcome/resume'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
