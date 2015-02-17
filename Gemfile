@@ -32,9 +32,6 @@ gem 'spring',        group: :development
 # Use unicorn as the app server
 # gem 'unicorn'
 
-# use puma as app server
-gem 'puma'
-
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
