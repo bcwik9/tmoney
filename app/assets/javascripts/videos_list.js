@@ -37,4 +37,5 @@ document.getElementById('vids').onclick = function (event) {
 	},
 	
     ]);
+    alert("TESTING!");
 }
