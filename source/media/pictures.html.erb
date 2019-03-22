@@ -17,12 +17,8 @@
    
     <!-- Here we're looping through the image folder and adding them all to the gallery widget -->
     <div id="links" class="text-center container">
-<% 
-dir = Dir.glob(Dir.pwd + "/app/assets/images/*.jpg") 
-dir.each do |image|
-%>
-<%= link_to( image_tag(File.join("thumbs", File.basename(image))), image_path(File.basename image) ) %>
-<% end %>
+      <%= link_to( image_tag("borrowedbaroque.jpg"), image_path("borrowedbaroque.jpg") ) %>
+      <%= link_to( image_tag(""), image_path("") ) %>
     </div>    
 
     <%= javascript_include_tag "blueimp-gallery.min.js" %>
