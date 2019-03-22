@@ -7964,16 +7964,16 @@ footer {
   background-position: center center;
 }
 .slide1 {
-  background-image: url(/assets/frozenalbion1.jpg);
+  background-image: url(/images/frozenalbion1.jpg);
 }
 .slide2 {
-  background-image: url(/assets/combo/combo0.jpg);
+  background-image: url(/images/combo/combo0.jpg);
 }
 .slide3 {
-  background-image: url(/assets/tracey5.jpg);
+  background-image: url(/images/tracey5.jpg);
 }
 .slide4 {
-  background-image: url(/assets/combo/combo1.jpg);
+  background-image: url(/images/combo/combo1.jpg);
 }
 /* Carousel Fade Effect */
 .carousel.carousel-fade .item {
