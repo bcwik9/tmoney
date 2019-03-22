@@ -1,1 +1,1 @@
-Personal resume and demo website based on Rails and Bootstrap.
+Personal resume and demo website.
