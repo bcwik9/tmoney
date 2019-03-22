@@ -1,8 +1,7 @@
 <html>
 
   <head>
-    <!-- TODO: there's gotta be a better way to link to this... -->
-    <link rel="stylesheet" href="../../assets/blueimp-gallery.min.css">
+    <%= stylesheet_link_tag "blueimp-gallery.min.css" %>
   </head>
   
   <body> 
@@ -26,9 +25,7 @@ dir.each do |image|
 <% end %>
     </div>    
 
-    <!-- TODO: there's gotta be a better way to link to this... -->
-    <script src="../../assets/blueimp-gallery.min.js"></script>
-
+    <%= javascript_include_tag "blueimp-gallery.min.js" %>
     <script>
       document.getElementById('links').onclick = function (event) {
       event = event || window.event;
